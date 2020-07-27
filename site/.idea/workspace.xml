@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6b40ec9-1887-4c4c-b1d0-edc8954af244" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="members@localhost [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="members@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PHP" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-464">
+              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setting_bootstrap.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phasergame.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamnova/client/Game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34891">
+              <caret line="1511" column="16" selection-start-line="1511" selection-start-column="16" selection-end-line="1511" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamnova/client/Ending.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamnova/client/MainMenu.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamnova/client/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamnova/client/Info.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamnova/client/Boot.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamnova/client/client.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jumbotron</find>
+      <find>conta</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/login_form/assets/img/backgrounds</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/game/bricks/index.html" />
+        <option value="$PROJECT_DIR$/game/bricks/bricksbreak.html" />
+        <option value="$PROJECT_DIR$/game/bricks/bricks.js" />
+        <option value="$PROJECT_DIR$/game/test/test.html" />
+        <option value="$PROJECT_DIR$/game/test/test.js" />
+        <option value="$PROJECT_DIR$/game/phasertest/index.html" />
+        <option value="$PROJECT_DIR$/game/phasertest/part1.html" />
+        <option value="$PROJECT_DIR$/game/phasertest/phaser3-tutorial-src/part4.html" />
+        <option value="$PROJECT_DIR$/game/snake/index.html" />
+        <option value="$PROJECT_DIR$/game/snake/assets/js/menu.js" />
+        <option value="$PROJECT_DIR$/game/snake/assets/js/game.js" />
+        <option value="$PROJECT_DIR$/game/snake/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/../untitled1/assets/js/game.js" />
+        <option value="$PROJECT_DIR$/gamesample/snake/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/gamesample/snake/assets/js/snakegame.js" />
+        <option value="$PROJECT_DIR$/test/login.php" />
+        <option value="$PROJECT_DIR$/gamesample/jumpjump/data/level00.json" />
+        <option value="$PROJECT_DIR$/gamesample/jumpjump/index.html" />
+        <option value="$PROJECT_DIR$/gamesample/test2/js/Game.js" />
+        <option value="$PROJECT_DIR$/gamesample/test2/js/Preloader.js" />
+        <option value="$PROJECT_DIR$/gamesample/test2/js/MainMenu.js" />
+        <option value="$PROJECT_DIR$/test/join.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gamesample/bricks/bricksbreak.html" />
+        <option value="$PROJECT_DIR$/setting_bootstrap.html" />
+        <option value="$PROJECT_DIR$/need_login.html" />
+        <option value="$PROJECT_DIR$/test/logout.php" />
+        <option value="$PROJECT_DIR$/gamesample/jumpjump/js/main.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/phasergame.php" />
+        <option value="$PROJECT_DIR$/gamesample/bak/js/Game.js" />
+        <option value="$PROJECT_DIR$/css/index_style.css" />
+        <option value="$USER_HOME$/Downloads/gamelist (4).sql" />
+        <option value="$PROJECT_DIR$/mandelaeffect/css/style.css" />
+        <option value="$PROJECT_DIR$/gamesample/bricks/bricksbreak.php" />
+        <option value="$PROJECT_DIR$/gamesample/jumpjump/index.php" />
+        <option value="$PROJECT_DIR$/gamesample/jumpjump/game.html" />
+        <option value="$PROJECT_DIR$/gamesample/bak/index.html" />
+        <option value="$PROJECT_DIR$/gamesample/bak/index.php" />
+        <option value="$PROJECT_DIR$/mandelaeffect/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/bootstrap/css/mand_bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/line.php" />
+        <option value="$PROJECT_DIR$/board.php" />
+        <option value="$PROJECT_DIR$/navi.php" />
+        <option value="$USER_HOME$/Downloads/gamelist (7).sql" />
+        <option value="$USER_HOME$/Downloads/gamelist (9).sql" />
+        <option value="$PROJECT_DIR$/test/db_info.php" />
+        <option value="$PROJECT_DIR$/test/login_ok.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$USER_HOME$/Downloads/gamelist (10).sql" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="433" />
+    <option name="y" value="38" />
+    <option name="width" value="1471" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="gamesample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="mandelaeffect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="teamnova" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="teamnova" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="teamnova" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="teamnova" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="External" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="teamnova" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="teamnova" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="0e8de8bc-5d2c-4a5a-90be-ab161d0d8e36" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/yj/Dropbox/PHP/gamesample/jumpjump/images/hero.png" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="GenericSQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gamesample" />
+      <recent name="$PROJECT_DIR$/gamesample/nn" />
+      <recent name="$PROJECT_DIR$/video" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/gamesample/test2" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gamesample/snake" />
+      <recent name="$PROJECT_DIR$/../untitled1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6b40ec9-1887-4c4c-b1d0-edc8954af244" name="Default Changelist" comment="" />
+      <created>1535990321279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535990321279</updated>
+      <workItem from="1535990322506" duration="1043000" />
+      <workItem from="1535991982618" duration="145000" />
+      <workItem from="1535992169243" duration="10317000" />
+      <workItem from="1536058532466" duration="8400000" />
+      <workItem from="1536203105556" duration="27367000" />
+      <workItem from="1536308840298" duration="4997000" />
+      <workItem from="1536322332350" duration="3780000" />
+      <workItem from="1536331143383" duration="2434000" />
+      <workItem from="1536468280736" duration="208000" />
+      <workItem from="1536468811055" duration="11724000" />
+      <workItem from="1536560172538" duration="30491000" />
+      <workItem from="1536723338656" duration="2499000" />
+      <workItem from="1536904959133" duration="6028000" />
+      <workItem from="1537842003141" duration="703000" />
+      <workItem from="1537856117576" duration="23233000" />
+      <workItem from="1538222281270" duration="229000" />
+      <workItem from="1538223021281" duration="778000" />
+      <workItem from="1538367736169" duration="74000" />
+      <workItem from="1538367816684" duration="5659000" />
+      <workItem from="1538640659792" duration="48000" />
+      <workItem from="1539495457300" duration="3861000" />
+      <workItem from="1539580620944" duration="14734000" />
+      <workItem from="1539605654992" duration="46000" />
+      <workItem from="1539606120671" duration="6916000" />
+      <workItem from="1539660422024" duration="425000" />
+      <workItem from="1539765582464" duration="27000" />
+      <workItem from="1539765617372" duration="2000" />
+      <workItem from="1539765879214" duration="400000" />
+      <workItem from="1540089311725" duration="71000" />
+      <workItem from="1540137352312" duration="123000" />
+      <workItem from="1546350017536" duration="561000" />
+      <workItem from="1557752201073" duration="468000" />
+      <workItem from="1559383338110" duration="4857000" />
+      <workItem from="1559406193396" duration="692000" />
+      <workItem from="1559716623544" duration="1229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="174569000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="433" y="38" width="1471" height="1038" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985479" visible="true" weight="0.23960535" />
+      <window_info id="Structure" order="1" sideWeight="0.5014521" side_tool="true" weight="0.15296052" />
+      <window_info id="DB Browser" order="2" weight="0.3939394" />
+      <window_info id="Favorites" order="3" sideWeight="0.5004525" side_tool="true" weight="0.090990186" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913843" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913843" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.282011" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" weight="0.22124863" />
+      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.17494357" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.3299293" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32913843" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.026779423" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.33543506" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985479" visible="true" weight="0.2" />
+      <window_info id="Structure" order="1" sideWeight="0.5014521" side_tool="true" weight="0.15296052" />
+      <window_info id="DB Browser" order="2" weight="0.39473686" />
+      <window_info id="Favorites" order="3" sideWeight="0.5004525" side_tool="true" weight="0.090990186" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913843" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913843" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.09680542" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.09060023" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.3299293" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32913843" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.16995615" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.0372807" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/gamesample/jumpjump/js/main.js</url>
+          <line>110</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mandelaeffect/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="223" column="26" lean-forward="true" selection-start-line="223" selection-start-column="26" selection-end-line="223" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="216" column="5" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/gamelist (4).sql" />
+    <entry file="file://$USER_HOME$/Downloads/gamelist (6).sql" />
+    <entry file="file://$USER_HOME$/Downloads/gamelist (8).sql" />
+    <entry file="file://$USER_HOME$/Downloads/gamelist (7).sql" />
+    <entry file="file://$PROJECT_DIR$/test/join_ok.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/login_ok.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0e8de8bc-5d2c-4a5a-90be-ab161d0d8e36/schema/members/table/member" />
+    <entry file="das://79356ea3-f93c-4e8b-9c95-4d2b526864c7/schema/members/table/member" />
+    <entry file="das://79356ea3-f93c-4e8b-9c95-4d2b526864c7/schema/members/table/gamelist" />
+    <entry file="file://$USER_HOME$/Downloads/gamelist (10).sql" />
+    <entry file="das://0e8de8bc-5d2c-4a5a-90be-ab161d0d8e36/schema/members/table/gamelist" />
+    <entry file="file://$PROJECT_DIR$/images/infwar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/jump.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0e8de8bc-5d2c-4a5a-90be-ab161d0d8e36/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/gamelist (9).sql" />
+    <entry file="file://$PROJECT_DIR$/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/github-character.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/db_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamesample/bak/js/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4600">
+          <caret line="204" column="46" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="20" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="81" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodetest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_form/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phasergame/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/phasergame/js/dungeon-scene.js" />
+    <entry file="file://$PROJECT_DIR$/please/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/please/js/game.js" />
+    <entry file="file://$PROJECT_DIR$/please/js/client.js" />
+    <entry file="file://$PROJECT_DIR$/please/assets/sprites/sprite.png" />
+    <entry file="file://$PROJECT_DIR$/please/assets/map/tilesheet.png" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/need_login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6686" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/HealthBar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/Preloader.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/MainMenu.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/Info.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/Boot.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/client.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/Ending.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamnova/client/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34891">
+          <caret line="1511" column="16" selection-start-line="1511" selection-start-column="16" selection-end-line="1511" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting_bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phasergame.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

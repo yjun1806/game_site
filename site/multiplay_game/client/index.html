@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>GAME</title>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            display: flex;
+/*
+            justify-content: center;
+*/
+        }
+
+        .item {
+            margin: 1rem;
+        }
+        /* 메인 */
+        #main {
+            background-color: #cbcbcb;
+            width: 90%;
+            height: 585px;
+            margin-bottom: 10px;
+            margin-left:20px;
+            margin-right:10px;
+        }
+
+        /* 채팅 영역 */
+        #chat {
+            height: 99%;
+            width: 100%;
+            overflow-y: auto;
+        }
+
+        /* 접속 알림 */
+        .connect {
+            border-radius: 5px;
+            line-height: 2em;
+            font-family: Gugi;
+            width: 95%;
+            margin: auto;
+            background-color: aquamarine;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* 접속 종료 알림 */
+        .disconnect {
+            border-radius: 5px;
+            line-height: 2em;
+
+            font-family: Gugi;
+            width: 95%;
+            margin: auto;
+            background-color: indianred;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* 내가 보낸 메시지 */
+        .me {
+            font-family: Gugi;
+            padding:0em 0.5em 0em 0.5em;
+            line-height: 1.5em;
+
+            display: inline-block;
+            background-color: lemonchiffon;
+            border-radius: 5px;
+            text-align: right;
+            margin-top: 10px;
+            float:right;
+            margin-right:10px;
+
+        }
+        .clear{
+            clear:right;
+        }
+
+        /* 상대방이 보낸 메시지 */
+        .other {
+            font-family: Gugi;
+            line-height: 1.5em;
+
+            padding:0em 0.5em 0em 0.5em;
+            display: inline-block;
+            background-color: white;
+            border-radius: 5px;
+            text-align: left;
+            margin-top: 10px;
+            margin-left:10px;
+
+        }
+        .chat_log{ margin-top:10px; margin-left:10px; width: 95%; height: 550px; }
+        .connect_log{
+            font-family: Gugi;
+            margin-top: 20px; margin-left:20px; margin-right:10px; padding-left:10px;
+            width: 86%; height: 100px; font-size: 14px;}
+        .name{
+            margin-left:20px;
+            width: 20%;
+            height: 25px;
+            font-size: 12px;
+            font-weight: 800;
+           /* background: #2655cc;
+            color: #fff;*/
+            -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+            text-shadow: none;
+        }
+        .message{ width: 50%; height: 25px;
+            -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+        }
+        .chat{ width: 13%;}
+        .btn_cus_main {
+            height: 30px;
+            margin: 0;
+            vertical-align: middle;
+            background: #2655cc;
+            border: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 30px;
+            color: #fff;
+            -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+            text-shadow: none;
+            -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+            -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+        }
+        .box{ width: 390px; }
+
+        .backg {
+            background-image:url('/client/css/borderh.png');
+            background-size:contain;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+<!--
+    <script src="/css/chat.css"></script>
+-->
+
+    <script>
+        //let socket = GameSocket;
+        function abc(){
+
+            //event.returnValue = "정말닫음?";
+            GameSocket.close();
+
+        }
+
+       /* /!* 메시지 전송 함수 *!/
+        function send() {
+            // 입력되어있는 데이터 가져오기
+            var message = document.getElementById('test').value
+
+            // 가져왔으니 데이터 빈칸으로 변경
+            document.getElementById('test').value = ''
+
+            // 내가 전송할 메시지 클라이언트에게 표시
+            var chat = document.getElementById('chat')
+            var msg = document.createElement('div')
+            var node = document.createTextNode(message)
+            msg.classList.add('me')
+            msg.appendChild(node)
+            chat.appendChild(msg)
+
+            // 서버로 message 이벤트 전달 + 데이터와 함께
+            GameSocket.emit('message', {type: 'message', message: message})
+        }*/
+    </script>
+
+</head>
+<body onbeforeunload="abc();">
+
+<script src="/client/External/phaser.js"></script>
+<script src="/client/HealthBar.js"></script>
+<script src="/client/Gamesocket.js"></script>
+<script src="/client/Boot.js"></script>
+<script src="/client/Info.js"></script>
+<script src="/client/Preloader.js"></script>
+<script src="/client/MainMenu.js"></script>
+<script src="/client/Ending.js"></script>
+<script src="/client/Game.js"></script>
+<script src="/client/main.js"></script>
+<!--
+<script src="/client/client.js" type="text/javascript"></script>
+-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<div class="container">
+    <div>
+        <div id="game_Canvas"></div>
+        <div id="game_Info">
+        </div>
+    </div>
+
+    <aside class="backg">
+        <!--<div id="main">
+            <div id="chat">
+                &lt;!&ndash; 채팅 메시지 영역 &ndash;&gt;
+            </div>
+            <div>
+                <input type="text" id="test" placeholder="메시지를 입력해주세요..">
+                <button onclick="send()">전송</button>
+            </div>
+        </div>-->
+        <div>
+<!--
+            <h5 id="nowconnectedplayer" style="margin-left:10px">현재 접속중인 플레이어 : 0 명</h5>
+-->
+            <!--접속중인 사람 리스트를 나타낼 예정-->
+            <textarea id="connectedLog" class="connect_log" readonly style="resize:none;"></textarea>
+        </div>
+        <div id="main">
+            <div id="chat">
+                <!--채팅 기록이 나타나는 부분-->
+                <!--
+                            <textarea id="chatLog" class="chat_log" readonly style="resize:none;"></textarea>
+                -->
+            </div>
+        </div>
+
+        <form id="chat_form">
+            <input id="name" class="name" type="text" readonly>
+            <input id="message" class="message" type="text" placeholder="메세지를 입력해주세요..">
+            <input type="submit" class="chat btn_cus_main" value="전송"/>
+        </form>
+        <div id="box" class="box">
+            <script>
+                //import {GameSocket} from "./Gamesocket";
+
+                var chat_socket = GameSocket;
+                let connect_list = {};
+
+                /*
+                                var chat_socket = io(); //1
+                */
+                chat_socket.on('chat_number', function (data, disconnectsoketID, Id) {
+                    //jquery - append : $(A).append(B) = A사이에 B가 추가된다.(뒤로추가)
+                    //jquery - appendTo : $(A).appendTo(B) = A가 B사이에 추가된다.(뒤로추가)
+                    //반대는 prepend(앞에 추가)
+                    //$('#nowconnectedplayer').text('< 접속중인 플레이어 : '+ Object.keys(data).length + '명>\n');
+                    //$('#connectedLog').val('');
+                    let text = '<접속중인 플레이어 : ' + Object.keys(data).length + '명>\n';
+                    for(let index in data){
+                        text += data[index] + '\n';
+                    }
+                    $('#connectedLog').text(text);
+
+                    if(disconnectsoketID !== null){
+                        var chat = document.getElementById('chat');
+                        var msg = document.createElement('div');
+                        var node = document.createTextNode(Id + '님이 나가셨습니다.');
+                        //var br = document.createElement("br");
+
+                        msg.classList.add('disconnect');
+                        msg.appendChild(node);
+                        chat.appendChild(msg);
+
+                        delete connect_list[disconnectsoketID];
+                    }
+
+
+                });
+
+
+                $('#chat_form').on('submit', function(e){ //2
+                    //console.log("입력중...");
+                    chat_socket.emit('send_message', $('#name').val(), $('#message').val());
+                    var chat = document.getElementById('chat');
+                    var msg = document.createElement('div');
+                    var node = document.createTextNode($('#message').val());
+                    var br = document.createElement("br"); //엔터속성 넣어주는 부분
+                    msg.classList.add('me');
+                    msg.appendChild(node);
+                    br.classList.add('clear');
+                    chat.appendChild(msg); // 메세지를 넣어준다
+                    chat.appendChild(br); // 그 뒤에 엔터쳐주는 효과를 주는 속성을 넣어준다.
+
+                    console.log("scroll : " + $('#chat').scrollTop($('#chat')[0].scrollHeight));
+
+                    $('#message').val(''); // 작성후 글 지우기
+                    $('#message').focus();
+                    e.preventDefault();
+                });
+
+                chat_socket.on('receive_message', function(receive){ //3
+                    if(receive.name !== $('#name').val()){
+                        var chat = document.getElementById('chat');
+                        var msg = document.createElement('div');
+                        var node = document.createTextNode(receive.name + " : " + receive.message);
+                        var br = document.createElement("br");
+
+                        msg.classList.add('other');
+                        msg.appendChild(node);
+                        br.classList.add('clear');
+                        chat.appendChild(msg);
+                        chat.appendChild(br);
+                    }
+
+                    //$('#chatLog').append(msg+'\n');
+
+                    $('#chat').scrollTop($('#chat')[0].scrollHeight);
+                });
+
+                chat_socket.on('update_connection', function(list, connectID){ //4
+                    if(chat_socket.id === connectID){
+                        var chat2 = document.getElementById('chat');
+                        var msg2 = document.createElement('div');
+                        var node2 = document.createTextNode('채팅방에 접속하셨습니다.');
+                        //var br = document.createElement("br");
+
+                        msg2.classList.add('connect');
+                        msg2.appendChild(node2);
+                        chat2.appendChild(msg2);
+                    }
+
+                    if(connect_list[connectID] === undefined && connectID !== chat_socket.id){
+                        connect_list[connectID] = list[connectID];
+                        var chat = document.getElementById('chat');
+                        var msg = document.createElement('div');
+                        var node = document.createTextNode(connect_list[connectID] + '님이 접속하셨습니다.');
+                        //var br = document.createElement("br");
+
+                        msg.classList.add('connect');
+                        msg.appendChild(node);
+                        chat.appendChild(msg);
+                    }
+
+                    $('#name').val(list[chat_socket.id]);
+                });
+
+                chat_socket.on('disconnect_player', function (disconnectID) {
+                    var chat = document.getElementById('chat');
+                    var msg = document.createElement('div');
+                    var node = document.createTextNode(connect_list[disconnectID] + '님이 나가셨습니다.');
+                    //var br = document.createElement("br");
+
+                    msg.classList.add('disconnect');
+                    msg.appendChild(node);
+                    chat.appendChild(msg);
+
+                    delete connect_list[disconnectID];
+                });
+
+
+            </script>
+        </div>
+    </aside>
+</div>
+
+
+<!--
+<input type="text" class="message-input roboto" placeholder="Message" maxlength="20">
+-->
+
+</body>
+</html>

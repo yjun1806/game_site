@@ -1,0 +1,269 @@
+@import 'variable';
+
+/*
+z-index
+- 2: sidebar
+- 3: footer
+- 3: github ribbon
+*/
+
+/*================================================================ Common
+*/
+
+.monospace {
+  font-family: monospace;
+}
+
+.transition {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.visibility-visible {
+  visibility: visible;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.main-font {
+  font-family: monospace;
+}
+
+.text-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: monospace;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  &:extend(.main-font);
+}
+
+button,
+input,
+select {
+  outline: 0;
+}
+
+canvas {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  opacity: 1;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(256, 256, 256, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(256, 256, 256, 0.5);
+}
+
+::-webkit-input-placeholder {
+  &:extend(.text-font);
+}
+
+:-moz-placeholder {
+  &:extend(.text-font);
+}
+
+::-moz-placeholder {
+  &:extend(.text-font);
+}
+
+:-ms-input-placeholder {
+  &:extend(.text-font);
+}
+
+/*================================================================ Main
+*/
+
+#game-wrap {
+  background-color: @grey;
+}
+
+.logo {
+  position: absolute;
+  opacity: 0;
+}
+
+/*================================================================ Sidebar
+*/
+
+#sidebar {
+  position: absolute;
+  top: 64px;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  right: -6px;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.widget {
+  padding: 12px;
+  width: 100%;
+
+  > ul {
+    width: 100%;
+  }
+}
+
+.creature-widget {
+  list-style: none;
+
+  li {
+    text-overflow: ellipsis;
+    padding-bottom: 3px;
+    overflow: hidden;
+    color: @grey;
+  }
+}
+
+.creatures {
+  
+  li {
+    opacity: .6;
+    color: @accent;
+    display: none;
+
+    &.player {
+      display: block;
+      color: @white;
+    }
+
+    &.enemy {
+      display: block;
+      color: @blue;
+    }
+  }
+}
+
+/*================================================================ Footer
+*/
+
+.footer {
+  pointer-events: none;
+  position: relative;
+  opacity: .8;
+}
+
+#log-wrap {
+  width: 100%;
+  height: 220px;
+  overflow-y: scroll;
+  position: absolute;
+  overflow: hidden;
+  left: 6px;
+  bottom: 6px;
+}
+
+#logs {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+
+  li {
+    text-overflow: ellipsis;
+    color: @white;
+  }
+}
+
+/*================================================================ Others
+*/
+
+.message-input {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  width: 200px;
+  text-align: center;
+  margin-left: -100px;
+  padding: 6px 0;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: @white;
+  font-size: 16px;
+  visibility: visible;
+  border-radius: 4px;
+
+  opacity: .4;
+  pointer-events: visible;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+// http://tholman.com/github-corners/
+@keyframes octocat-wave{
+  0%,100% { transform: rotate(0) }
+  20%,60% { transform: rotate(-25deg) }
+  40%,80% { transform: rotate(10deg) }
+}
+
+.github-corner {
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+
+  &:hover {
+
+    .octo-arm {
+      animation: octocat-wave 560ms ease-in-out
+    }
+  }
+
+  @media (max-width:500px) {
+    .octo-arm {
+      animation: octocat-wave 560ms ease-in-out
+    }
+
+    &:hover {
+
+      .octo-arm {
+        animation: none
+      }
+    }
+  }
+}

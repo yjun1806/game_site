@@ -1,0 +1,72 @@
+/* jumbotron */
+.background {
+    background-image: url("../images/gameback.png");
+    background-size: cover;
+    background-position: 25% 50%;
+    text-shadow: gray 0.2em 0.2em 0.2em;
+    color: white;
+}
+
+.background2 {
+
+}
+
+.center {
+    text-align: center;
+}
+
+.game_background {
+    background-image: url("../images/gameback.png");
+    background-size: cover;
+    background-position: 25% 50%;
+    text-shadow: gray 0.2em 0.2em 0.2em;
+    color: white;
+}
+
+
+.btn_cus {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #de615e;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.btn_cus_main {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #c493cc;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.btn_large {
+    height: 100px;
+    width: 150px;
+}
+
+.dis {
+    -webkit-column-break-inside: avoid;
+    -webkit-backface-visibility: hidden;
+}
+
