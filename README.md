@@ -35,6 +35,7 @@ Phaser2 엔진을 이용한 웹게임과 이 게임을 서비스하는 홈페이
 - Phaser CE v2.11.0
 - jQuery, Bootstrap, Node.js(+ Express, Socket.io, body-parser)
 
+
 ### 기타
 - 게임 에셋 - 캐릭터 및 기타 게임 이미지 : [https://opengameart.org/](https://opengameart.org/)
 - 참고한 게임 : [https://github.com/tlmader/theodoric](https://github.com/tlmader/theodoric)
@@ -43,7 +44,9 @@ Phaser2 엔진을 이용한 웹게임과 이 게임을 서비스하는 홈페이
 
 ## 영상
 
-[ 추가 예정 ]
+[![영상](http://img.youtube.com/vi/jJusL--wq4Q/0.jpg)](https://youtu.be/jJusL--wq4Q "영상")
+
+위의 이미지를 클릭하시면 영상을 보실 수 있습니다.
 
 
 ## 스크린샷 및 상세 설명
